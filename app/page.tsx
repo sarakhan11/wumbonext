@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react'
 import Image from "next/image"
 import Link from "next/link";
-
 import React from 'react';const wumbo = () => {
   
   <style>
@@ -39,6 +38,9 @@ import React from 'react';const wumbo = () => {
               Download
           </button>
         </div>
+
+
+
 
         
         <div className='mt-16 container mx-auto w-auto justify-between'>
@@ -118,7 +120,7 @@ import React from 'react';const wumbo = () => {
             </div>
           </div>
 
-        <div className='flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-20 lg:gap-14 md:gap-20 sm:gap-2'>
+        <div className='flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-20 lg:gap-4 md:gap-20 sm:gap-2'>
           <div className='my-24 flex flex-col w-[283px] xl:w-[573px] lg:w-[400px] md:w-[500px] sm:w-[283px]'>
             <p className='xl:w-[500px] lg:w-[500px] md:w-full sm:w-[300px] w-[283px] text-[#193766] font-[DM+Sans&family] text-left font-medium leading-[44px] text-3xl '>
               There are <span className='underline'>80+ Pre-Designed</span>  Templates Ready to Use
@@ -151,8 +153,8 @@ import React from 'react';const wumbo = () => {
 
 
           <div className=''>
-            <div className='xl:items-end lg:items-end md:items-end sm:items-center items-center flex flex-col xl:flex-row lg:flex-row md:flex-row sm:flex-col gap-5 mt-0 xl:mt-0 lg:mt-20 md:mt-0 sm:mt-0'>
-              <Image className="" src="/ok.png" width={146} height={146} alt=""/>
+            <div className='xl:items-end lg:items-end md:items-end sm:items-center items-center grid grid-cols-1 xl:grid-cols-3 lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 xl:gap-5 lg:gap-2 md:gap-5 sm:gap-5 gap-5 mt-0 xl:mt-0 lg:mt-20 md:mt-0 sm:mt-0'>
+              <Image className="ml-auto" src="/ok.png" width={146} height={146} alt=""/>
               <Image className="" src="/Rectangle 610 f.png" width={227} height={227} alt=""/>
               <Image className="" src="/Rectangle 608.png" width={191} height={191} alt=""/>
             </div>
@@ -204,17 +206,17 @@ import React from 'react';const wumbo = () => {
       </div>
 
 
-      <div className='container'>
-          <div className='w-auto h-auto'>
-            <Image className="absolute" src="/Rectangle 630.png" width={1440} height={1306} alt=""/>
-            <div className='relative mx-auto flex justify-center items-center flex flex-col'>
-              <button className='relative border justify-center mt-48 items-center text-center mx-auto text-[#3B82F6] px-4 py-2 rounded-3xl font-bold font-[DM+Sans&family] text-base'>
+      <div className='container h-[1306px]'>
+          <div className='w-auto'>
+            <Image className="absolute xl:h-[1206px] lg:h-[1006px] md:h-[806px] sm:h-[800px] h-[600px]" src="/Rectangle 630.png" width={1440} height={1306} alt=""/>
+            <div className='relative mx-auto align-center text-center justify-center items-center flex flex-col'>
+              <button className='relative border justify-center xl:mt-48 lg:mt-20 md:mt-28 sm:mt-24 mt-14 items-center text-center mx-auto text-[#3B82F6] px-4 py-2 rounded-3xl font-bold font-[DM+Sans&family] text-base'>
                 Preview
               </button>
-              <p className='relative mt-2 xl:w-[777px] lg:w-[777px] md:w-full sm:w-[283px] w-[283px] md:w-full sm:w-[300px] w-[283px] text-white font-[DM+Sans&family] text-center mx-auto font-medium leading-[44px] text-3xl '>
+              <p className='relative mt-2 xl:w-[777px] lg:w-[777px] md:w-full sm:w-[283px] w-[283px] md:w-full sm:w-[300px] w-[283px] text-white font-[DM+Sans&family] text-center mx-auto font-medium xl:leading-[44px] lg:leading-[44px] md:leading-[44px] sm:leading-[44px] leading-[18px] text-medium xl:text-3xl lg-text-3xl md:text-3xl sm:text-xl  '>
                 Social Feeds is a Figma design template, and everyone can use Figma!
               </p>
-              <Image className="mt-14" src="/Rectangle 625.png" width={928} height={539} alt=""/>
+              <Image className="inline-block mt-2 xl:mt-14 lg:mt-14 md:mt-14 sm:mt-4 md:w-[528px] xl:w-[928px] lg:w-[828px] sm:w-auto w-auto" src="/Rectangle 625.png" width={928} height={539} alt=""/>
               <p className='mt-10 text-white hover:text-white xl:w-[777px] lg:w-[777px] md:w-full sm:w-[283px] w-[283px] md:w-full sm:w-[300px] w-[283px] text-center font-[DM+Sans&family] font-medium leading-[30px] w-auto text-base '>
                 Figma social media content templates for branding, marketing, insights, 
                 and more. Free for personal and commercial use!
@@ -226,9 +228,9 @@ import React from 'react';const wumbo = () => {
 
 
 
-      <div className='mt-80 mb-20 xl:mx-28 lg:mx-4 md:mx-28 sm:mx-2 mx-4'>
+      <div className='xl:mt-80 lg:mt-80 md:mt-20 sm:mt-80 mt-10 mb-20 xl:mx-28 lg:mx-20 md:mx-auto ml-0 xl:ml-0 lg:ml-0 md:ml-36 sm:ml-0 sm:mx-2 mx-4 flex justify-between container'>
         <div className=''>
-          <div className=' justify-between flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-20 lg:gap-14 md:gap-20 sm:gap-2'>
+          <div className=' justify-between flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-20 lg:gap-20 md:gap-20 sm:gap-2'>
             <div className='my-24 flex flex-col w-[283px] xl:w-[573px] lg:w-[400px] md:w-[500px] sm:w-[283px]'>
               <p className='xl:w-[500px] lg:w-[500px] md:w-full sm:w-[300px] w-[283px] text-[#193766] font-[DM+Sans&family] text-left font-medium leading-[44px] text-3xl '>
                 Optimized For Posts on<span className='underline'>All Social Media:</span>   Facebook, Instagram & Twitter
@@ -237,20 +239,43 @@ import React from 'react';const wumbo = () => {
                 The design has an aspect ratio of 1:1 which the majority of social media recommends. The image quality is also high (1080 * 1080), you can further increase 
                 the image quality to 2x or more so that the design looks sharper.
               </p>
+              <div className=''>
+                <div className='bg-[#3B82F6] flex flex-row mt-5 justify-between py-6 px-7 rounded-xl'>
+                  <h1 className='text-white font-[DM+Sans&family] font-bold text-base leading-[30px]'>
+                    Preview For Instagram
+                  </h1>
+                  <Image className="" src="/arrow-right.svg" width={24} height={24} alt=""/>
+                </div>
+
+                <div className='bg-white hover:bg-[#3B82F6] flex flex-row mt-5 justify-between py-6 px-7 rounded-xl'>
+                  <h1 className='text-[#193766] hover:text-white font-[DM+Sans&family] font-bold text-base leading-[30px]'>
+                    Preview For Facebook
+                  </h1>
+                  <Image className="" src="/arrow-right (1).svg" width={24} height={24} alt=""/>
+                </div>
+
+                <div className='bg-white hover:bg-[#3B82F6] flex flex-row mt-5 justify-between py-6 px-7 rounded-xl'>
+                  <h1 className='text-[#193766] hover:text-white font-[DM+Sans&family] font-bold text-base leading-[30px]'>
+                    Preview For Twitter
+                  </h1>
+                  <Image className="" src="/arrow-right (1).svg" width={24} height={24} alt=""/>
+                </div>
+              </div>
             </div>
 
-            <Image className="" src="/Group 12 (1).png" width={356} height={456} alt=""/>
+            <Image className="w-[280px] xl:w-[356px] lg:w-[356px] md:w-full sm:w-[280px] " src="/Group 12 (f).png" width={356} height={456} alt=""/>
           </div>
         </div>
       </div>
 
 
       <div className='xl:mx-28 lg:mx-4 md:mx-28 sm:mx-2 mx-4 my-20'>
-        <div className='justify-between flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-20 lg:gap-4 md:gap-20 sm:gap-2'>
-          <Image className="" src="/Image 6 (1).png" width={579} height={333} alt=""/>
+        <div className='justify-between flex flex-col xl:flex-row lg:flex-row md:flex-col sm:flex-col xl:gap-0 lg:gap-0 md:gap-20 sm:gap-2'>
+          <div className="xl:w-[579px] lg:w-[479px] md:w-full sm:w-[279px] w-[280px] h-[333px] my-auto mr-0 xl:mr-20 lg:mr-0 md:mr-0 sm:mr-0">
+            <Image className="" src="/Image 6 (f).png" width={579} height={333} alt=""/>
+          </div>
 
-
-          <div className='my-24 flex flex-col w-[283px] xl:w-[573px] lg:w-[400px] md:w-[500px] sm:w-[283px]'>
+          <div className='flex flex-col w-[283px] xl:w-[573px] lg:w-[400px] md:w-[500px] sm:w-[283px]'>
               <p className='xl:w-[500px] lg:w-[300px] md:w-full sm:w-[300px] w-[283px] text-[#193766] font-[DM+Sans&family] text-left font-medium leading-[44px] text-3xl '>
                 Optimized For Posts on<span className='underline'>All Social Media:</span>   Facebook, Instagram & Twitter
               </p>
@@ -258,7 +283,47 @@ import React from 'react';const wumbo = () => {
                 The design has an aspect ratio of 1:1 which the majority of social media recommends. The image quality is also high (1080 * 1080), you can further increase 
                 the image quality to 2x or more so that the design looks sharper.
               </p>
+              <div className=''>
+                <div className='mt-4 gap-4 flex '>
+                  <Image className="" src="/check.png" width={24} height={24} alt=""/>
+                  <h1 className='text-[#193766] text-base font-normal font-[DM+Sans&family] leading-[30px]  '>
+                    Design content for products
+                  </h1>
+                </div>
+                <div className='mt-4 gap-4 flex '>
+                  <Image className="" src="/check.png" width={24} height={24} alt=""/>
+                  <h1 className='text-[#193766] text-base font-normal font-[DM+Sans&family] leading-[30px] '>
+                    Design content to offer services
+                  </h1>
+                </div>
+                <div className='mt-4 gap-4 flex '>
+                  <Image className="" src="/check.png" width={24} height={24} alt=""/>
+                  <h1 className='text-[#193766] text-base font-normal font-[DM+Sans&family] leading-[30px]  '>
+                    product to include Social Feeds
+                  </h1>
+                </div>
+                <div className='mt-4 gap-4 flex '>
+                  <Image className="" src="/close.png" width={24} height={24} alt=""/>
+                  <h1 className='text-[#193766] text-base font-normal font-[DM+Sans&family] leading-[30px]  '>
+                    Resell it without changes
+                  </h1>
+                </div>
+                <div className='mt-4 gap-4 flex '>
+                  <Image className="" src="/close.png" width={24} height={24} alt=""/>
+                  <h1 className='text-[#193766] text-base font-normal font-[DM+Sans&family] leading-[30px]  '>
+                    Create tool to add Social Feeds
+                  </h1>
+                </div>
+              </div>
             </div>
+        </div>
+      </div>
+
+
+
+      <div className=''>
+        <div className='w-auto'>
+        <Image className="absolute h-[680px]" src="/Rectangle 630.png" width={1440} height={1306} alt=""/>
         </div>
       </div>
 
